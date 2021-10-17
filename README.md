@@ -46,7 +46,7 @@ Os hardware utilizados e necessários para o funcionamento do software foram:
 
 ### uPyPulseOximeter IoT
 
-**uPyPulseOx_IoT-M5C_V0.1** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem funções mais complexas e recursos extras, na **versão 0.1** (05/08/2021):
+1) **uPyPulseOx_IoT-M5C_V0.1** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem funções mais complexas e recursos extras, na **versão 0.1** (05/08/2021):
 
 * Após a pessoa se identificar com o cartão no RFID, o mesmo deve colocar o dedo no unit HEART (por enquanto substituído pelas leituras do giroscópio);
 * Ele grava em uma variável o ID do cartão e mede a taxa de oxigênio em duas instâncias;
@@ -55,7 +55,7 @@ Os hardware utilizados e necessários para o funcionamento do software foram:
 * Se as medidas possuírem o mesmo valor, tal valor de SpO2 é exibido em verde na tela e enviado para o [**dashboard do Thingspeak**](https://thingspeak.com/channels/1367388), caso o mesmo ocorra, porém sem conexão WiFi no local, o valor de SpO2 é exibido em vermelho;
 Caso os valores sejam diferentes, o mesmo não envia e exibe um background vermelho voltando a exigir o cartão ID.
 
-**uPyPulseOx_IoT-M5C_V0.2** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem funções mais complexas e recursos extras, na **versão 0.2** (14/08/2021):
+2) **uPyPulseOx_IoT-M5C_V0.2** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem funções mais complexas e recursos extras, na **versão 0.2** (14/08/2021):
 
 * Após a pessoa se identificar com o cartão no RFID, o mesmo deve colocar o dedo no unit HEART (por enquanto substituído pelas leituras do giroscópio);
 * Ele grava em uma variável o ID do cartão e exibe na tela, abaixo da taxa de Oxigenação, o nome da pessoa associada;
@@ -65,7 +65,7 @@ Caso os valores sejam diferentes, o mesmo não envia e exibe um background verme
 * Se as medidas possuírem o mesmo valor, tal valor de SpO2 é exibido em verde na tela e enviado para o [**dashboard do Cayenne**](https://cayenne.mydevices.com/cayenne/dashboard/device/121cb950-fbca-11eb-ab96-c3c008d35c1c), caso o mesmo ocorra, porém sem conexão WiFi no local ou IoT Cloud inacessível, o valor de SpO2 é exibido em vermelho;
 Caso os valores sejam diferentes, o mesmo não envia e exibe um background vermelho voltando a exigir o cartão ID.
 
-**uPyPulseOx_IoT-M5C_V0.3** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem as mesmas funções e recursos na **versão 0.2**, exceto pelo log das medidas (25/09/2021):
+3) **uPyPulseOx_IoT-M5C_V0.3** Os códigos-fonte uPyPulseOx_IoT-M5C, possuem as mesmas funções e recursos na **versão 0.2**, exceto pelo log das medidas (25/09/2021):
 
 * Mantem todas as funções da segunda versão (V0.2), com a adição de um arquivo `log.txt` que mostra a quantidade de medidas feitas no dia antes da interrupção do protótipo.
 
