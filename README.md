@@ -76,6 +76,6 @@ Quantidades a serem implementadas:
 - total de 1x, pois atende a demanda de usuários do LabNerds;
 - 1x na sala de entrada.
 
-<img src="img/uPyPulseOximeter-exp_aplication.jpg" width="600">
+<img src="img/uPyPulseOximeter-exp_aplication.png" width="600">
 
 **Equipe**: Eduardo Destefani Stefanato e Roberto Colistete Júnior.
